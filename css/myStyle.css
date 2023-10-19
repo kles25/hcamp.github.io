@@ -695,7 +695,7 @@ h1, h2, h3, h4, h5, p, a, li, nav {
     text-transform: capitalize;
     font-weight: 100;
     font-size: 2.5vh;
-    text-align: center;
+    text-align: right;
     display: none;
 }
 
@@ -1846,7 +1846,19 @@ input.toggleClass:checked ~ .sectionClass-status {
         font-size: 2vh;
     }
 
+    .courseCol {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;   
+    }
 
+    .markCol {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
 
     ::-webkit-scrollbar {
         height: .5vh;
