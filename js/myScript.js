@@ -33,4 +33,22 @@ document.addEventListener("DOMContentLoaded", function() {
     // setInterval(() => {
     //   showSlide(currentSlide + 1);
     // }, 10000); // Auto slide every 3 seconds
+
+    const showTextButton = document.getElementById("markButton");
+    const textToShow = document.getElementById("markDone");
+
+    showTextButton.addEventListener("click", function () {
+    textToShow.style.display = "block";
+    });
+
+    const showTextButton2 = document.getElementById("markButton2");
+    const textToShow2 = document.getElementById("markDone2");
+
+    showTextButton2.addEventListener("click", function () {
+    textToShow2.style.display = "block";
+    });
+
+
+
   });
+
