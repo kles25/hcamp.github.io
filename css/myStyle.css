@@ -1496,6 +1496,7 @@ input.toggleClass:checked ~ .sectionClass-status {
         z-index: 999;
         background-color: rgba(0, 0, 0, 0.9);
         margin-bottom: 10vh;
+        height: 76vh;
     }
 
     .sectionClass2 {
