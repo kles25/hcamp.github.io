@@ -1496,7 +1496,7 @@ input.toggleClass:checked ~ .sectionClass-status {
         overflow-y: scroll;
         z-index: 999;
         background-color: rgba(0, 0, 0, 0.9);
-        margin-bottom: 10vh;
+        margin-bottom: 15vh;
         height: 76vh;
     }
 
@@ -1718,8 +1718,8 @@ input.toggleClass:checked ~ .sectionClass-status {
 
     .footer-profile {
         position: absolute;
-        bottom: .5vh;
-        left: .5vh;
+        bottom: 0;
+        left: 0;
         padding-left: 0;
     }
 
